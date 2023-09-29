@@ -14,4 +14,16 @@ class MethodChannelFusionApiFlutter extends FusionApiFlutterPlatform {
     final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
   }
+
+  // TODO: Call platform specific functions
+  @override
+  void login() {
+    // TODO: implement login
+  }
+
+  @override
+  void logout() {
+    // TODO: implement logout
+  }
+  
 }
